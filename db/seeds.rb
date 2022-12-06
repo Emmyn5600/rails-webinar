@@ -9,7 +9,7 @@ puts "Workshops are being created"
 
 workshops = Workshop.create([
     {
-        name: "Full Stack Ruby on Rails Developent Bootcamp",
+        name: "Full Stack Ruby on Rails Development Bootcamp",
         description: "Emmy is a Full stack Ruby on Rails Developer who loves to code on Rails, 
         Emmy is a Full stack Ruby on Rails Developer who loves to code on Rails,
         Emmy is a Full stack Ruby on Rails Developer who loves to code on Rails",
@@ -22,7 +22,7 @@ workshops = Workshop.create([
         registration_fee: 1500
     },
     {
-        name: "Full Stack Python Django Developent Bootcamp",
+        name: "Full Stack Python Django Development Bootcamp",
         description: "Emmy is a Full stack Ruby on Rails Developer who loves to code on Rails, 
         Emmy is a Full stack Ruby on Rails Developer who loves to code on Rails,
         Emmy is a Full stack Ruby on Rails Developer who loves to code on Rails",
@@ -35,7 +35,7 @@ workshops = Workshop.create([
         registration_fee: 1500
     },
     {
-        name: "Full Stack Node Developent Bootcamp",
+        name: "Full Stack Node Development Bootcamp",
         description: "Emmy is a Full stack Ruby on Rails Developer who loves to code on Rails, 
         Emmy is a Full stack Ruby on Rails Developer who loves to code on Rails,
         Emmy is a Full stack Ruby on Rails Developer who loves to code on Rails",
