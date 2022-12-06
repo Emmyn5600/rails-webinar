@@ -5,3 +5,46 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+puts "Workshops are being created"
+
+workshops = Workshop.create([
+    {
+        name: "Full Stack Ruby on Rails Developent Bootcamp",
+        description: "Emmy is a Full stack Ruby on Rails Developer who loves to code on Rails, 
+        Emmy is a Full stack Ruby on Rails Developer who loves to code on Rails,
+        Emmy is a Full stack Ruby on Rails Developer who loves to code on Rails",
+        start_date: Date.today + 2.days,
+        end_date: Date.today + 9.days,
+        start_time: "10:00 AM",
+        end_time: "3:00 PM",
+        total_sits: 100,
+        remaining_sits: 0,
+        registration_fee: 1500
+    },
+    {
+        name: "Full Stack Python Django Developent Bootcamp",
+        description: "Emmy is a Full stack Ruby on Rails Developer who loves to code on Rails, 
+        Emmy is a Full stack Ruby on Rails Developer who loves to code on Rails,
+        Emmy is a Full stack Ruby on Rails Developer who loves to code on Rails",
+        start_date: Date.today + 12.days,
+        end_date: Date.today + 19.days,
+        start_time: "10:00 AM",
+        end_time: "3:00 PM",
+        total_sits: 100,
+        remaining_sits: 0,
+        registration_fee: 1500
+    },
+    {
+        name: "Full Stack Node Developent Bootcamp",
+        description: "Emmy is a Full stack Ruby on Rails Developer who loves to code on Rails, 
+        Emmy is a Full stack Ruby on Rails Developer who loves to code on Rails,
+        Emmy is a Full stack Ruby on Rails Developer who loves to code on Rails",
+        start_date: Date.today + 22.days,
+        end_date: Date.today + 99.days,
+        start_time: "10:00 AM",
+        end_time: "3:00 PM",
+        total_sits: 100,
+        remaining_sits: 0,
+        registration_fee: 1500
+    }
+])
