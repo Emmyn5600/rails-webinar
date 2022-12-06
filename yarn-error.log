@@ -1,0 +1,30 @@
+Arguments: 
+  /home/emmyn5600/.nvm/versions/node/v16.10.0/bin/node /home/emmyn5600/.nvm/versions/node/v16.10.0/bin/yarn add sass bootstrap bootstrap-icons @popperjs/core
+
+PATH: 
+  /home/emmyn5600/.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/bin:/home/emmyn5600/.rbenv/versions/3.0.0/bin:/usr/lib/rbenv/libexec:/home/emmyn5600/.rbenv/plugins/ruby-build/bin:/home/emmyn5600/.rbenv/shims:/home/emmyn5600/.rbenv/bin:/home/emmyn5600/.nvm/versions/node/v16.10.0/bin:/home/emmyn5600/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/rvm/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.10.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+
+npm manifest: 
+  {
+    "name": "app",
+    "private": "true"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
