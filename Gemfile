@@ -74,5 +74,5 @@ group :test do
 end
 
 gem 'cssbundling-rails'
-
 gem 'stripe'
+gem "rqrcode", "~> 2.0"
